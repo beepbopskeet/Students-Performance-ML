@@ -1,73 +1,88 @@
-Student Performance Prediction 📚✨
-This project is about predicting students' math scores using machine learning models. We cleaned the data, explored it with beautiful plots, and used different regression models to make predictions.
+# 🎓 Student Performance Analysis
 
-🔍 Dataset
-We used a dataset that includes:
+## 📌 Project Overview
 
-Gender (converted to female = 1 or 0)
+This project explores student academic performance using statistical analysis and data visualization techniques.
 
-Parental education
+The goal is to identify patterns and factors that may influence student achievement across different subjects.
 
-Lunch type
+---
 
-Test preparation
+## 🛠 Technologies Used
 
-Reading and writing scores
-Our goal was to predict the math score based on these features.
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-🧹 Data Preprocessing
-Missing values were checked ✅
+---
 
-Categorical variables were converted using get_dummies()
+## 📊 Dataset Description
 
-Outliers were visualized using Boxplot
+The dataset contains information about students, including:
 
-Data was scaled using StandardScaler
+* Gender
+* Race/Ethnicity
+* Parental Level of Education
+* Lunch Type
+* Test Preparation Course
+* Math Score
+* Reading Score
+* Writing Score
 
-📊 Visualization
-We created plots like:
+---
 
-Countplots (for gender, lunch, etc.)
+## 🔍 Analysis Performed
 
-Heatmap (correlation between scores)
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Distribution Analysis
+* Correlation Analysis
+* Score Comparison
+* Demographic Impact Investigation
 
-Boxplots (to check outliers)
+---
 
-Scatterplots (actual vs predicted scores)
+## 📈 Key Findings
 
-🤖 Models Used
-We used the following models:
+### Test Preparation
 
-Linear Regression
+Students who completed test preparation courses generally achieved higher scores across all subjects.
 
-Lasso Regression (with and without cross-validation)
+### Reading and Writing Scores
 
-Ridge Regression (with and without cross-validation)
+A strong positive relationship exists between reading and writing performance.
 
-ElasticNet Regression (with and without cross-validation)
+### Parental Education
 
-Each model was evaluated using:
+Higher parental education levels are often associated with improved student outcomes.
 
-MAE (Mean Absolute Error)
+### Subject Performance
 
-MSE (Mean Squared Error)
+Reading and writing scores tend to be more closely related than math scores.
 
-R² Score
+---
+## 🚀 How to Run
 
-🧠 What I Learned
-How to clean and prepare real-life datasets
+```bash
+git clone https://github.com/USERNAME/students-performance-analysis.git
 
-How to visualize data clearly
+cd students-performance-analysis
 
-How to apply regression models
+pip install -r requirements.txt
 
-How to compare model results and performance
+jupyter notebook
+```
 
-💻 Tools Used
-Python 🐍
+---
 
-pandas, numpy
+## 🎯 Future Improvements
 
-seaborn, matplotlib
+* Student Score Prediction
+* Linear Regression Models
+* Random Forest Regression
+* Feature Importance Analysis
+* Academic Performance Dashboard
 
-scikit-learn
