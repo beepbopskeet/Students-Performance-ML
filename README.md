@@ -69,7 +69,7 @@ Reading and writing scores tend to be more closely related than math scores.
 ```bash
 git clone https://github.com/USERNAME/students-performance-analysis.git
 
-cd students-performance-analysis
+cd students-performance
 
 pip install -r requirements.txt
 
